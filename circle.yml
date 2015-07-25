@@ -1,17 +1,16 @@
 machine:
-        java:
-                version: openjdk7
-                enviroment:
-                        ANDROID_HOME: /usr/local/android-sdk-linux
-
+  java:
+    version: openjdk7
+  environment:
+    ANDROID_HOME: /usr/local/android-sdk-linux
 
 test:
-        override:
-                -echo "Nothing to do here"
-        override:
-                - ./gradlew test
+    override:
+      -echo "Nothing to do here"
+    override:
+      - ./gradlew test
 deployment:
-        master:
-                branch: master
-                commands:
-                        - ./gradlew asembleRelease
+     master:
+      branch: master
+      commands:
+        - ./gradlew asembleRelease
