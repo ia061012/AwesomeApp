@@ -1,3 +1,9 @@
+general:
+  artifacts:
+   - "app/build/outputs/apk/app-release-unsigned.apk"
+
+
+
 machine:
   java:
     version: openjdk7
