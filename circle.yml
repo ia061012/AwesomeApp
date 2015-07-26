@@ -4,8 +4,8 @@ machine:
   environment:
     ANDROID_HOME: /usr/local/android-sdk-linux
     dependencies:
-            override:
-                    - echo y | android update sdk --no-ui --filter "android-22,build-tools-22.0.0"
+      override:
+        - echo y | android update sdk --no-ui --filter "android-22,build-tools-22.0.0"
 
 
 test:
