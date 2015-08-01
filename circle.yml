@@ -15,7 +15,8 @@ machine:
 
 test:
     override:
-      -echo "Nothing to do here"
+      - echo "Nothing to do here"
+
 deployment:
      master:
       branch: master
