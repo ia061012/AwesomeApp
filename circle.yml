@@ -3,7 +3,7 @@ general:
     only:
       - master
   artifacts:
-   - "app/build/outputs/apk/app-release-unsigned.apk"
+   - "app/build/outputs/apk/awesomeapp-release.apk"
 
 
 
@@ -16,8 +16,8 @@ machine:
 test:
     override:
       -echo "Nothing to do here"
-    override:
-      - ./gradlew test
+#    override:
+#      - ./gradlew test
 deployment:
      master:
       branch: master
