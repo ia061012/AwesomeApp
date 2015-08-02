@@ -16,7 +16,6 @@ machine:
 dependencies:
   override:
     - android list sdk --all --extended
-      #    - echo y | android update sdk --no-ui --filter android-22,build-tools-22.0.1
           - echo y | android update sdk --no-ui --filter android-22
   
 
@@ -30,3 +29,4 @@ deployment:
       branch: master
       commands:
         - ./gradlew assembleRelease
+
