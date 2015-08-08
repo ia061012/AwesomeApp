@@ -3,7 +3,7 @@ general:
     only:
       - master
   artifacts:
-    - "app/build/outputs/apk/app-release-signed.apk"
+    - "app/build/outputs/apk/app-release-unsigned.apk"
 
 
 
