@@ -3,7 +3,7 @@ general:
     only:
       - master
   artifacts:
-    - /home/ubuntu/awesomeapp/app/build/outputs/apk/
+    - /home/ubuntu/AwesomeApp/app/build/outputs/apk/
 
 
 
