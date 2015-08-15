@@ -6,6 +6,6 @@ package com.example.wataru.awesomeapp;
 public class Calc {
 
     public double add(double x , double y){
-        return 7;
+        return 5;
     }
 }
